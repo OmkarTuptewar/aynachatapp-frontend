@@ -35,11 +35,11 @@ const LoginPage = () => {
     }
   };
 
-  const handleGuestLogin = () => {
-    // Fill fields with guest credentials
-    setIdentifier("guest@gmail.com");
-    setPassword("guest@123");
-  };
+  // const handleGuestLogin = () => {
+  //   // Fill fields with guest credentials
+  //   setIdentifier("guest@gmail.com");
+  //   setPassword("guest@123");
+  // };
 
   return (
     <div className="flex min-h-screen w-full flex-wrap items-stretch bg-gray-800 max-md:pb-20 max-md:pt-32">
@@ -98,12 +98,12 @@ const LoginPage = () => {
           </form>
 
           {/* Guest Login Button */}
-          <button
+          {/* <button
             onClick={handleGuestLogin}
             className="mt-4 group inline-flex items-center justify-center gap-1.5 font-medium rounded-full transition-all hover:-translate-y-0.5 hover:shadow-xl lqd-btn-secondary bg-red-600 text-white hover:bg-red-300 focus-visible:bg-gray-700 focus-visible:shadow-gray-300/10 px-5 py-3"
           >
             Login As Guest
-          </button>
+          </button> */}
 
           <div className="mt-20 text-gray-400 text-sm">
             Don't have an account yet?
