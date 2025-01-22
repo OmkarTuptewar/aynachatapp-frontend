@@ -7,7 +7,7 @@ import ChatBox from "../components/ChatBox";
 import { useUser } from "../context/UserContext";
 
 
-const client = new W3CWebSocket(process.env.REACT_APP_WEBSOCKET_URL);
+const client = new W3CWebSocket(process.env.REACT_APP_WEBSOCKET_URL || "https://aynachatapp-backend.onrender.com");
 
 
 
